@@ -3,9 +3,9 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 
-def page_summary_body():
+def summary_body():
 
-    st.write("### Quick Project Summary")
+    st.write("### Project Summary")
 
     st.info(
         f"**General Information on Powdery mildew**\n"
@@ -17,20 +17,20 @@ def page_summary_body():
 
         f"* it is easy to spot the affliction by the white powdery spores on the leaves"
         f"and stem, typically on the leaves at the base of the plant but, as the disease"
-        f"spreads, can be seen further up the plant and with larger and denser clusters of spores \n"
+        f"spreads, can be seen further up the plant and with larger and denser clusters of spores \n\n"
         
-        f"**Project goals**\n"
-        f"the goal of this webapp is to identify, through a machine learning algorithm, leaves that"
+        f"**Project goals**\n\n"
+
+        f"* the goal of this webapp is to identify, through a machine learning algorithm, leaves that"
         f"have been affected with powdery mildew.\n"
         f"currently this process is done manually which will take on average, 30 minutes per tree."
         f"this app will be able to identify instantly whether a tree is a suspected carrier of the"
-        f"disease, leaving further inspection and resulting treatment to the trees owner.\n\n"
+        f"disease with an accuracy of over 97%, leaving further inspection and resulting treatment to the trees owner.\n\n"
 
         f"**Project Dataset**\n"
 
-        f"* The available dataset contains 5643 out of +27 thousand images taken from "
-        f"blood smear workflow (when a drop of blood is taken on a glass slide) of "
-        f"malaria-parasitised and uninfected cells.")
+        f"* The dataset available was taken from the client's crop field  and contains 4208 images "
+        f" split between healthy and mildew infected cherry leaves\n\n")
 
     st.write(
         f"* For additional information, please visit and **read** the "
