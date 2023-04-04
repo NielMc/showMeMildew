@@ -1,0 +1,6 @@
+inputs/cherry_leaves_data/cherry-leaves/train/*
+inputs/cherry_leaves_data/cherry-leaves/test/*
+README.md
+.gitpod.dockerfile
+.gitpod.yml
+app_pages/__pycache__/*
