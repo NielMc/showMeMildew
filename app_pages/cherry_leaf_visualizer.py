@@ -50,7 +50,7 @@ def leaf_visualizer_body():
         st.write(
             "To see a montage of sample images, select a classification and click the **Create Montage** button")
         st.write('a new montage of images will be generated when the **Create Montage** button is clicked')
-        data_path = 'inputs/cherry_leaves_data/validation'
+        data_path = 'inputs/cherry_leaves_data/cherry-leaves/test'
         labels = os.listdir(data_path)
         label_to_display = st.selectbox(
             label="Choose label",
